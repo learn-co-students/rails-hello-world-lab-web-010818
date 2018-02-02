@@ -25,7 +25,7 @@ Rails.application.routes.draw do
   #       get 'sold'
   #     end
   #   end
-
+get 'hello_world', to: 'static#about'
   # Example resource route with sub-resources:
   #   resources :products do
   #     resources :comments, :sales
